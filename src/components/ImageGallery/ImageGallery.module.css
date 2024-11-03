@@ -1,0 +1,12 @@
+.listBox {
+  margin-top: 50px;
+  padding: 20px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.listItem {
+  width: calc((100% - 48px) / 4);
+}

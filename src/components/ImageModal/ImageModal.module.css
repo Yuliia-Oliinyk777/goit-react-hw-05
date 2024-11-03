@@ -1,0 +1,28 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: 'hidden';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+.modalContent {
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: transparent;
+  margin-top: 20px;
+}
+
+.modalImg {
+  display: block;
+  object-fit: cover;
+}
