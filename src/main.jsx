@@ -1,14 +1,14 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-// import App from './App.jsx';
+import { BrowserRouter } from 'react-router-dom';
 import 'modern-normalize';
 import './index.css';
-import App from './components/App/App';
-// import App from './App';
-// import PropTypes from "prop-types";
-// import clsx from "clsx";
+import App from './App';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>
 );
