@@ -1,28 +1,31 @@
-.backdrop {
-  background-color: rgba(0, 0, 0, 0.8);
-  overflow: 'hidden';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.listWrap {
+  margin-left: 12px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 12;
+  gap: 8px;
 }
-
-.modalContent {
-  max-width: 90%;
-  max-height: 90%;
+.list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: transparent;
-  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
-
-.modalImg {
+.link {
+  width: calc((100% - 48px) / 4);
+  color: black;
+  box-shadow: 0 4px 4px rgb(118, 114, 121);
+}
+.link:hover,
+.link:focus,
+.link:active {
+  color: #f22c3d;
+  text-decoration: underline;
+}
+.poster {
   display: block;
-  object-fit: cover;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.name {
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 8px;
 }

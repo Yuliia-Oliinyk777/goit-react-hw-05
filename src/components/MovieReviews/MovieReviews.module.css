@@ -1,12 +1,15 @@
-.listBox {
-  margin-top: 50px;
-  padding: 20px;
+.wrapper {
+  padding: 16px 32px;
 }
 .list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 16px;
 }
-.listItem {
-  width: calc((100% - 48px) / 4);
+.title {
+  margin-bottom: 12px;
+}
+.photo {
+  width: 100px;
+  height: 150;
 }

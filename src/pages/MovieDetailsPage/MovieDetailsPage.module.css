@@ -1,0 +1,61 @@
+/* div {
+  margin-top: 100px;
+} */
+.wrapper {
+  margin-top: 50px;
+  padding-left: 32px;
+  text-align: start;
+}
+.backBtn {
+  margin-bottom: 16px;
+  padding: 4px;
+  border-radius: 4px;
+}
+.backBtn:hover,
+.backBtn:focus,
+.backBtn:active {
+  color: #ffffff;
+  background-color: #f22c3d;
+  border-color: #f22c3d;
+}
+.movieWrap {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  box-shadow: 0 4px 4px rgb(118, 114, 121);
+}
+.title {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.text {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.subtitle {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.additional {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.additionalWrap {
+  padding-left: 32px;
+  padding-bottom: 12px;
+  box-shadow: 0 4px 4px rgb(118, 114, 121);
+}
+.link:hover,
+.link:focus {
+  color: #f22c3d;
+  text-decoration: underline;
+}
+.link {
+  color: black;
+}
+.active {
+  color: #f22c3d;
+}

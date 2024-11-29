@@ -1,0 +1,35 @@
+.movieWrap {
+  margin-top: 50px;
+  padding-left: 32px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.searchForm {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 8px;
+}
+.input {
+  padding: 4px 16px;
+  border-radius: 4px;
+  outline: transparent;
+  font-size: 16px;
+  border: 1px solid rgb(170, 173, 174);
+}
+.btn {
+  font-size: 16px;
+  padding: 4px 8px;
+  border: 1px solid rgb(170, 173, 174);
+  border-radius: 4px;
+  background-color: rgb(224, 229, 231);
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #ffffff;
+  background-color: #f22c3d;
+  border-color: #f22c3d;
+}

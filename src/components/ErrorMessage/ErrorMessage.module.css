@@ -1,0 +1,15 @@
+.errorWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  flex-direction: column;
+  gap: 24px;
+}
+.error {
+  font-weight: 500;
+  font-size: large;
+}
+.sad {
+  width: 100px;
+}

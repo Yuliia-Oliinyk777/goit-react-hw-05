@@ -1,15 +1,25 @@
-.errorWrap {
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(236, 239, 241);
+  text-align: start;
+  padding: 20px 32px;
+  box-shadow: 0 4px 4px rgb(118, 114, 121);
+  border-bottom: 1px solid rgb(170, 173, 174);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 200px;
-  flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
-.error {
-  font-weight: 500;
-  font-size: large;
+.nav {
+  display: flex;
+  gap: 16px;
 }
-.sad {
-  width: 100px;
+.link {
+  color: black;
+}
+.active {
+  color: #f22c3d;
 }

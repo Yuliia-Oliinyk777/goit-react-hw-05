@@ -1,0 +1,22 @@
+.notFound {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.navLink {
+  font-size: 24px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  color: #f22c3d;
+}
