@@ -23,7 +23,6 @@ const MovieReviews = () => {
         setIsLoading(true);
         const data = await fetchMovieReviews(movieId);
         setReviews(data.results);
-        console.log(data.results);
       } catch (error) {
         setError(error.message);
       } finally {

@@ -35,7 +35,6 @@ export const fetchQueryMovies = async query => {
     },
     headers: { Authorization: `Bearer ${MY_ACCESS_TOKEN}` },
   });
-  console.log(data.results);
 
   return data.results;
 };
@@ -50,7 +49,6 @@ export const fetchMovieById = async id => {
       Authorization: `Bearer ${MY_ACCESS_TOKEN}`,
     },
   });
-  console.log(data);
 
   return data;
 };
